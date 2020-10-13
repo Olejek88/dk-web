@@ -1,0 +1,42 @@
+body,p,div,span,a,td,th,input,li,select { font-family: tahoma, Arial, Helvetica; font-size: 10px; color: black;}
+
+a { color: #004071; }
+hr { height: 1px; border:0px; border-top:1px solid #E5E5E5; clear: both; margin: 0px; padding: 0px;}
+h5 { color: #004071;font-size:14px;}
+
+.main {	color: black; font-family: Arial,sans-serif; font-size: 10px; text-decoration: none }
+.man {	color: black; font-weight: bold; font-family: Arial,sans-serif; font-size: 11px; text-decoration: none }
+.log { color: black; font-family: sans-serif; font-size: 11px; text-decoration: none }
+.zagl {	color: black; font-family: arial; font-weight:bold; font-size: 12px; text-decoration: none }
+.zagl2 {	color: black; font-family: arial; font-weight:bold; font-size: 18px; text-decoration: none }
+.date {	color: green; font-family: sans-serif; font-size: 11px; text-decoration:  none;}
+
+.prnt {	color: #223322; font-family: tahoma; font-weight:bold; font-size: 12px; text-decoration: none }
+
+.top {	color: #fbfbfb; font-family: tahoma,sans-serif; font-size: 11px; text-decoration:  none;}
+.top4 {	color: #010101; font-family: tahoma,sans-serif; font-size: 11px; text-decoration:  none;}
+.top2 {	color: #010101; font-family: tahoma,sans-serif; font-size: 11px; text-decoration:  none;}
+.top3 {	color: #111188; font-family: tahoma,sans-serif; font-size: 11px; text-decoration:  none;}
+.top5 {	color: #010101; font-family: tahoma,sans-serif; font-size: 10px; text-decoration:  none;}
+
+.event1 { color: #881111; font-family: tahoma,sans-serif; font-size: 11px; text-decoration:  none;}
+.event2 { color: #441144; font-family: tahoma,sans-serif; font-size: 11px; text-decoration:  none;}
+.event3 { color: #118811; font-family: tahoma,sans-serif; font-size: 11px; text-decoration:  none;}
+
+.tablz 	{ color: #513d00; font-family: tahoma,sans-serif; font-weight:bold; font-size: 10px; text-decoration:  none;}
+.tablz2	{ color: #513d00; font-family: tahoma,sans-serif; font-weight:bold; font-size: 9px; text-decoration:  none;}
+.tablz3 { color: #513d00; font-family: tahoma,sans-serif; font-weight:bold; font-size: 12px; text-decoration:  none;}
+
+.good 	{ color: #118811; font-family: tahoma,sans-serif; font-size: 10px; text-decoration:  none;}
+.bad 	{ color: #881111; font-family: tahoma,sans-serif; font-size: 10px; text-decoration:  none;}
+
+.menu {	font-family: tahoma,Arial, Helvetica; font-size: 12px; font-weight: bold; color: #ffffff;}
+.date2 	{ color: #999999; font-family: Arial,tahoma,sans-serif; font-size: 11px; text-decoration:  none;}
+.zagl3 	{ color: #000088; font-family: Arial; font-weight:bold; font-size: 11px; text-decoration: none }
+
+td.tops { background-color: #eeeeee}
+td.tops2 { background-color: #fff48e}
+td.tops3 { background-color: #dbd3ae}
+
+td.tops:hover { background-color: #ffffff}
+

@@ -1,0 +1,189 @@
+/**Top menu**/
+#main-menu, #main-menu ul
+{
+	padding:0; margin:0;
+	min-height:24px;
+	width:100%;
+	list-style:none;
+	float:left;
+	text-decoration: none;
+}
+
+/*#main-menu li ul li
+{
+	background-image:none;
+}*/
+
+/*#main-menu li.root-item  {
+	background:none;
+}*/
+
+/*Links*/
+#main-menu a
+{
+	display:block;
+}
+
+#main-menu ul li a
+{
+	display:block;
+	padding:5px 10px;
+	text-decoration:none;
+	color:black;
+}
+
+#main-menu li {
+	float:left;
+}
+
+/*Root items*/
+#main-menu li.root-item
+{
+	font-weight:bold;
+	padding: 0 0 10px 0;
+	margin: 6px 7px 0 5px;
+	background: url("tm_arr.gif") no-repeat bottom left;
+}
+
+#main-menu li a.root-item,
+#main-menu li a.root-item:link,
+#main-menu li a.root-item:visited
+{
+	color:#FFF;
+}
+#main-menu li a.root-item:hover
+{
+	color:#FC9;
+}
+
+/*Item-parents*/
+#main-menu a.parent
+{
+	background: url(res/arr.gif) center right no-repeat;
+}
+
+/*Child-items: hover*/
+#main-menu ul li:hover {
+	background-color:#F8B169;
+}
+
+#main-menu ul li a:hover, #main-menu ul li li a:hover {
+	background-color:#F8B169;
+}
+
+/*Child-items selected*/
+#main-menu li.item-selected
+{
+	color:#fff;
+}
+
+/*Sub-menu box*/
+#main-menu li ul
+{
+	font-weight:normal;
+	margin:0; padding:0;
+	position:absolute;
+	top:auto;
+	visibility:hidden;
+	/*display:none;*/
+	z-index:500;
+	height:auto;
+	width:175px;
+	background-color:#f3f6f9;
+	border:solid 1px #FF8C00;
+}
+
+/*Sub-menu item box*/
+#main-menu li li 
+{
+	width:100%;
+	border-bottom:1px solid #CEDAE7;
+}
+
+/*Item link*/
+#main-menu li ul a
+{
+	text-align:left;
+}
+
+/*Items text color & size */
+/*#horizontal-multilevel-menu li a,
+#horizontal-multilevel-menu li:hover li a,
+#horizontal-multilevel-menu li.jshover li a,
+#horizontal-multilevel-menu li:hover li:hover li a,
+#horizontal-multilevel-menu li.jshover li.jshover li a,
+#horizontal-multilevel-menu li:hover li:hover li:hover li a,
+#horizontal-multilevel-menu li.jshover li.jshover li.jshover li a,
+#horizontal-multilevel-menu li:hover li:hover li:hover li:hover li a,
+#horizontal-multilevel-menu li.jshover li.jshover li.jshover li.jshover li a,
+#horizontal-multilevel-menu li:hover li:hover li:hover li:hover li:hover li a,
+#horizontal-multilevel-menu li.jshover li.jshover li.jshover li.jshover li.jshover li a
+{
+	color:#4F4F4F;
+	font-weight:bold;
+}*/
+
+/*Items text color & size: hover*/
+/*#main-menu li:hover li:hover a,
+#main-menu li.jshover li.jshover a,
+#main-menu li:hover li:hover li:hover a,
+#main-menu li.jshover li.jshover li.jshover a,
+#main-menu li:hover li:hover li:hover li:hover a,
+#main-menu li.jshover li.jshover li.jshover li.jshover a
+#main-menu li:hover li:hover li:hover li:hover li:hover a,
+#main-menu li.jshover li.jshover li.jshover li.jshover li.jshover a
+#main-menu li:hover li:hover li:hover li:hover li:hover li:hover a,
+#main-menu li.jshover li.jshover li.jshover li.jshover li.jshover li.jshover a
+{
+	color:#4F4F4F;
+}*/
+
+#main-menu li ul ul
+{
+	margin:-20px 0 0 150px;
+}
+
+#main-menu li:hover ul ul,
+#main-menu li.jshover ul ul,
+#main-menu li:hover ul ul ul,
+#main-menu li.jshover ul ul ul,
+#main-menu li:hover ul ul ul ul,
+#main-menu li.jshover ul ul ul ul,
+#main-menu li:hover ul ul ul ul ul,
+#main-menu li.jshover ul ul ul ul ul
+{
+	display:none;
+	visibility:hidden;
+}
+
+#main-menu li:hover ul,
+#main-menu li.jshover ul,
+#main-menu li li:hover ul,
+#main-menu li li.jshover ul,
+#main-menu li li li:hover ul,
+#main-menu li li li.jshover ul,
+#main-menu li li li li:hover ul,
+#main-menu li li li li.jshover ul,
+#main-menu li li li li li:hover ul,
+#main-menu li li li li li.jshover ul
+{
+	display:block;
+	visibility:visible;
+}
+
+
+/*div.menu-clear-left
+{
+	clear:left;
+}*/
+
+div#mmenu
+{
+	position:absolute;
+	top:90px;
+	left:278px;
+	background:url(topm_rl_fone.gif) no-repeat top left;
+	padding-top:5px;
+}
+div#mmenu A { text-decoration:none; }
+div#mmenu STRONG { font-weight:normal; }

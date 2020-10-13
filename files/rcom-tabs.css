@@ -1,0 +1,179 @@
+.hrefClone {
+	color: #005A84;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.hrefClone:hover {
+	text-decoration: underline;
+}
+
+.tabs {
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid #B0B0B0;
+	position: relative;
+}
+
+.tabs h3 {
+	float: left;
+	margin: 0 0 5px 0;
+	padding: 0;
+	display: inline;
+}
+
+.tabs p {
+	float: left;
+	margin: 0 0 5px 0;
+	line-height: 1.1;
+	padding: 0;
+	display: inline;
+}
+
+.tabs ul {
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.tabs li {
+	float: left;
+	margin: 0px 0px -1px 4px;
+	font-size: 11px;
+	display: inline;
+	font-weight: bold;
+	border: 1px solid #CCC;
+	border-bottom: none;
+	position: relative;
+}
+
+.tabs li a,
+.tabs li .hrefClone {
+	float: left;
+	display: block;
+	color: #005A84;
+	padding: 3px 7px 3px 7px;
+	background-color: #F4F9FB;
+}
+
+.tabs li a:hover,
+.tabs li .hrefClone:hover {
+	background-color: #FFF;
+	color: #005A84;
+	text-decoration: underline;
+}
+
+.tabs li.current {
+	position: relative;
+	border: 1px solid #B0B0B0;
+	border-bottom: none;
+}
+
+.tabs li.current a,
+.tabs li.current .hrefClone {
+	color: #000;
+	background: #fff;
+	text-decoration: none;
+	padding-bottom: 4px;
+}
+
+.tabs li.current a:hover,
+.tabs li.current .hrefClone:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+.tabs.small {
+	background: #E8F3Fb;
+ 	font-size: 11px;
+}
+
+.tabs.small h3 {
+	padding: 4px;
+	margin: 0;
+}
+
+.tabs.small p {
+	padding: 4px;
+	margin: 0;
+}
+
+.tabs.small ul {
+	padding-left: 0px; 
+}
+
+.tabs.large {
+	background: #fff;
+}
+
+.tabs.large ul {
+	padding-left: 0px;
+}
+
+.tabs.large li {
+	margin-right: 6px;
+	font-size: 15px;
+}
+
+.tabs.large p {
+	display: none;
+}
+
+.tabs.small.flexible p {
+	display: none;
+}
+
+.tabs.small.flexible ul {
+	width: auto;
+	padding-top: 4px;
+}
+
+.tabs.small.flexible h3 {
+	padding: 8px 4px 4px 4px;
+	margin: 0;
+}
+
+.tabs.inline {
+	background: transparent;
+}
+
+.tabEnclosedContent {
+  border: 1px solid #B0B0B0;
+  border-top: none;
+  padding: 8px;
+  margin: -1px 0 16px 0;
+}
+
+.tabEnclosedContent p {
+	margin: 0;
+	padding: 4px 0;
+}
+
+.tabs li.more {
+	background: none;
+	float:right;
+	margin:0;
+	padding:0px 4px;
+	border: none;
+}
+
+.tabs li.more a {
+	float: none;
+	background: none;
+	padding: 2px 0px 0px 0px;
+	font-weight: normal;
+	font-size: 10px;
+	font-family: arial,helvetica,sans;
+}
+
+.tabs li a.activeIcon {
+	display: none;
+}
+
+.tabs li.current a.activeIcon {
+	margin: 4px 0 0 -2px;
+	padding: 0 4px 4px 0;
+	display: inline;
+}
